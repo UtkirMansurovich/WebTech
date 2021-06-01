@@ -1,0 +1,570 @@
+.navbar{
+    background: #0C1117;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+}
+header{
+    background: url('Photo/Rectangle.jpg') no-repeat center center/cover;
+    height: 90vh;
+
+}
+.btn{
+    padding: 17px 37px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.border-left{
+    border-left: 3px solid #377DFF;
+    padding-left: 30px;
+}
+.border-left h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.img-bisines{
+    position: absolute;
+    height: 810px;
+    right: 5%;
+    top: 14%;
+    
+}
+@media (max-width: 1600px){
+    .img-bisines{
+        display: none;
+    }
+}
+section{
+    margin: 5% 0px;
+}
+#text{
+    border-left: 3px solid #377DFF;
+    text-align: center;
+    margin: 3% auto;
+    width: 17%;
+    padding-left: 5px;
+}
+#sectionTwo{
+    background-color: #233142;
+    padding: 8%;
+}
+.col-sm-10.my-auto h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.col-sm-10 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#boy{
+   
+    width: 100%;
+    height: 487px;
+    overflow: hidden;
+    
+    
+}
+#boy:hover #boyFooter{
+    transform: translateY(430px);
+}
+#boyFooter{
+    transition: 0.4s ease;
+    background: #377DFF;
+    opacity: 0.9;
+    border-radius: 0px;
+    text-align: center;
+    padding: 4%;
+    width: 100%;
+    transform: translateY(-400px);
+    
+    
+}
+
+.three{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141D28;
+    margin-top: 10%;
+}
+.col-lg-4 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#one{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    border-left: 3px solid #377DFF;
+    padding-left: 10px;
+}
+.bir{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #141D28;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: 3px solid #377DFF;
+    padding: 15px 15px;
+    width: 180px;
+    margin-top: 2%;
+   
+}
+
+#sectionFour{
+    background-image: url('Photo/ofis.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    border-radius: 0px;
+    height: 160vh;
+    
+}
+#opacity{
+    background-color: #F7F7F7;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#woman{
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+}
+#woman:hover #womanWoman{
+    transform: translateY(0px);
+}
+#womanWoman{
+    transition: 0.4s ease;
+    background: rgba(18, 27, 38, 0.73);
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #377DFF;
+    box-sizing: border-box;
+    transform: translateY(-360px);
+    
+
+}
+#few{
+    border-left: 3px solid #377DFF;
+    padding-left: 30px;
+    margin: 10% 0px;
+   
+}
+#few h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #233142;
+}
+#few h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #233142;
+}
+#few p{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C6F87;
+}
+.col-lg-6 h2{
+    margin: 5% 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #657991;
+}
+
+.plyus{
+    background: transparent;
+    color: #377DFF;
+    font-size: 4rem;
+    margin: auto;
+    border: none;
+
+}
+
+#our h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141D28;
+}
+.text-center.mt-5 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #4E5E72;
+    
+}
+.text-center.mt-5 h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141D28;
+    margin-top: 5%;
+
+}
+.text-center.mt-5 #marker{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4E5E72;
+}
+#sectionSeven{
+    background: #233142;
+}
+#newEra{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#pen{
+    background: url('Photo/businessman\ 2.png') no-repeat center center/cover;
+    
+}
+.col-lg-6 h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+   
+}
+.col-lg-6 h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 69px;
+    letter-spacing: 1px;
+    color: #377DFF;
+    margin-top: 5%;
+}
+.col-lg-6 #lorem{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-top: 5%;
+}
+.row #news{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141D28;
+    margin-bottom: 5%;
+    border-left: 3px solid #377DFF;
+    width: 20%;
+    margin: 2% auto;
+    padding-left: 5px;
+}
+#ochki{
+    background: url('Photo/boy6.jpg');
+    width: 90%;
+    min-height: 34vh;
+    overflow: hidden;
+}
+#ochkiTagi{
+    width: 90%;
+    padding: 8%;
+
+}
+#ochkiTagi h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #141D28;
+}
+#ochkiTagi p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C6F87;
+}
+#ochkiTagi #date{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #5C6F87;
+}
+#ochkiTagi #dateBir{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #5C6F87;
+}
+#ochkiTagi h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #141D28;
+}
+#cofe{
+    background: url('Photo/cofe.jpg') no-repeat center center/cover;
+    width: 89%;
+    height: 25vh;
+    overflow: hidden;
+}
+#cofeTagi{
+    width: 89%;
+    padding: 8%;
+    background: #141D28;
+}
+#cofeTagi p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+#cofeTagi #date, #cofeTagi #dateBir{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #5C6F87;
+}
+#soat{
+    background: url('Photo/soat.jpg') no-repeat center center/cover;
+    width: 89%;
+    height: 25vh;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#soatTagi{
+    width: 89%;
+    padding: 8%;
+    background: #141D28;
+}
+#soatTagi p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+#soatTagi #date, #soatTagi #dateBir{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #5C6F87;
+}
+#ochki:hover #software{
+    transform: translateY(20px);
+}
+#soat:hover #software{
+    transform: translateY(20px);
+}
+#cofe:hover #software{
+    transform: translateY(20px);
+}
+ #software{
+    transition: 0.4s ease;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #377DFF;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    transform: translateY(-40px);
+}
+#aboutUs{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #377DFF;
+    padding: 20% 0px;
+}
+#unolti{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+  
+}
+#unbesh{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+   
+}
+#underfooter{
+    background: #233142;
+    padding: 30px 0px 20px 0px;
+    margin-top: 30px;
+
+}
+#copy{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
